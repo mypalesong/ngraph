@@ -1,0 +1,100 @@
+site_name: Knowledge Graph 완벽 가이드
+site_url: https://mypalesong.github.io/ngraph/
+site_description: 지식 그래프의 개념부터 실제 구현까지 - 완벽 가이드
+site_author: mypalesong
+
+repo_name: mypalesong/ngraph
+repo_url: https://github.com/mypalesong/ngraph
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: ko
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.mark
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - 홈: index.md
+  - 시작하기:
+    - 소개: getting-started/introduction.md
+    - 빠른 시작: getting-started/quickstart.md
+    - 설치 가이드: getting-started/installation.md
+  - 핵심 개념:
+    - 지식 그래프란?: concepts/what-is-kg.md
+    - 그래프 데이터 모델: concepts/graph-data-model.md
+    - 온톨로지와 스키마: concepts/ontology-schema.md
+    - 추론과 규칙: concepts/reasoning-rules.md
+  - 활용 사례:
+    - 기업 지식 관리: use-cases/enterprise-knowledge.md
+    - 추천 시스템: use-cases/recommendation-system.md
+    - NLP 통합: use-cases/nlp-integration.md
+    - 금융 서비스: use-cases/financial-services.md
+    - 헬스케어: use-cases/healthcare.md
+  - 구현 가이드:
+    - 아키텍처 설계: implementation/architecture.md
+    - 데이터 모델링: implementation/data-modeling.md
+    - 그래프 데이터베이스: implementation/graph-databases.md
+    - ETL 파이프라인: implementation/etl-pipeline.md
+    - 성능 최적화: implementation/performance.md
+  - API 레퍼런스:
+    - SPARQL: api/sparql.md
+    - Cypher: api/cypher.md
+    - GraphQL: api/graphql.md
+    - REST API: api/rest-api.md
+  - 고급 주제:
+    - 그래프 임베딩: advanced/graph-embedding.md
+    - 지식 그래프 완성: advanced/kg-completion.md
+    - LLM 통합: advanced/llm-integration.md
+    - 분산 처리: advanced/distributed-processing.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mypalesong/ngraph

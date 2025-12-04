@@ -71,6 +71,19 @@ nav:
     - 그래프 데이터 모델: concepts/graph-data-model.md
     - 온톨로지와 스키마: concepts/ontology-schema.md
     - 추론과 규칙: concepts/reasoning-rules.md
+  - Neo4j 완벽 가이드:
+    - Neo4j 소개: neo4j/introduction.md
+    - 설치 및 설정: neo4j/installation.md
+    - Neo4j Browser 사용법: neo4j/browser.md
+    - Cypher 기초: neo4j/cypher-basics.md
+    - Cypher 심화: neo4j/cypher-advanced.md
+    - 데이터 모델링: neo4j/data-modeling.md
+    - Python 연동: neo4j/python-driver.md
+    - APOC 라이브러리: neo4j/apoc.md
+    - Graph Data Science: neo4j/gds.md
+    - 성능 튜닝: neo4j/performance.md
+    - 운영 및 백업: neo4j/operations.md
+    - 실전 프로젝트: neo4j/real-world-projects.md
   - 활용 사례:
     - 기업 지식 관리: use-cases/enterprise-knowledge.md
     - 추천 시스템: use-cases/recommendation-system.md

@@ -84,6 +84,13 @@ nav:
     - 성능 튜닝: neo4j/performance.md
     - 운영 및 백업: neo4j/operations.md
     - 실전 프로젝트: neo4j/real-world-projects.md
+    - 활용 사례 구현:
+      - 소셜 네트워크 분석: neo4j/use-cases/social-network.md
+      - 실시간 추천 엔진: neo4j/use-cases/recommendation-engine.md
+      - 사기 탐지 시스템: neo4j/use-cases/fraud-detection.md
+      - 지식 그래프 RAG: neo4j/use-cases/kg-rag.md
+      - 네트워크 인프라 관리: neo4j/use-cases/network-infrastructure.md
+      - 계보/족보 시스템: neo4j/use-cases/genealogy.md
   - 활용 사례:
     - 기업 지식 관리: use-cases/enterprise-knowledge.md
     - 추천 시스템: use-cases/recommendation-system.md
